@@ -1,0 +1,26 @@
+.link-round-text {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+
+	&__text {
+		font-weight: 500;
+	}
+
+	&__icon {
+		width: 40px;
+		height: 40px;
+	}
+
+	&--repair {
+		.link-round-text__icon {
+			background-image: url('./../assets/images/icons/repair.svg');
+		}
+	}
+
+	&--status {
+		.link-round-text__icon {
+			background-image: url('./../assets/images/icons/checkstatus.svg');
+		}
+	}
+}
