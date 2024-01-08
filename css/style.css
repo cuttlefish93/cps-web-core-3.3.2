@@ -365,17 +365,17 @@ input {
 
 @font-face {
   font-family: "TT Lakes";
-  src: url("/assets/fonts/TTLakes-Regular.woff") format("woff");
+  src: url("../assets/fonts/TTLakes-Regular.woff") format("woff");
   font-weight: 400;
 }
 @font-face {
   font-family: "TT Lakes";
-  src: url("/assets/fonts/TTLakes-Medium.woff") format("woff");
+  src: url("../assets/fonts/TTLakes-Medium.woff") format("woff");
   font-weight: 500;
 }
 @font-face {
   font-family: "TT Lakes";
-  src: url("/assets/fonts/TTLakes-Bold.woff") format("woff");
+  src: url("../assets/fonts/TTLakes-Bold.woff") format("woff");
   font-weight: 700;
 }
 body {
@@ -399,10 +399,10 @@ body {
   background-image: url("./../assets/images/icons/burger.svg");
 }
 .btn-round--close {
-  background-image: url("./../../assets/images/icons/close-btn.svg");
+  background-image: url("./../assets/images/icons/close-btn.svg");
 }
 .btn-round--search {
-  background-image: url("./../../assets/images/icons/search-icon.svg");
+  background-image: url("./../assets/images/icons/search-icon.svg");
 }
 
 .divider {
