@@ -34,9 +34,15 @@
 		display: flex;
 		gap: 4px;
 		padding: 0 16px;
-		overflow-x: scroll;
+		overflow-x: auto;
 		font-weight: 500;
 		color: $color-text-secondary;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	&__list::-webkit-scrollbar {
+		display: none;
 	}
 
 	&__item {
@@ -51,6 +57,7 @@
 			border-radius: 6px;
 			background-color: $color-white;
 			border: 2px solid $color-border-active-secondary;
+			cursor: auto;
 		}
 	}
 
